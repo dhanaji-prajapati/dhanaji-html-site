@@ -1,0 +1,39 @@
+# Dhanaji Prajapati SEO - Production Apache Configuration for Hostinger
+Options -Indexes +FollowSymLinks
+DirectorySlash On
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Secure headers
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set X-XSS-Protection "1; mode=block"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+
+  # Admin clean URLs
+  RewriteRule ^blog/ai-login/?$ blog/ai-login/index.php [L,QSA]
+  RewriteRule ^blog/ai-login/dashboard/?$ blog/ai-login/dashboard.php [L,QSA]
+  RewriteRule ^blog/ai-login/posts/?$ blog/ai-login/posts.php [L,QSA]
+  RewriteRule ^blog/ai-login/post-editor/?$ blog/ai-login/post-editor.php [L,QSA]
+  RewriteRule ^blog/ai-login/categories/?$ blog/ai-login/categories.php [L,QSA]
+  RewriteRule ^blog/ai-login/tags/?$ blog/ai-login/tags.php [L,QSA]
+  RewriteRule ^blog/ai-login/media/?$ blog/ai-login/media.php [L,QSA]
+  RewriteRule ^blog/ai-login/settings/?$ blog/ai-login/settings.php [L,QSA]
+  RewriteRule ^blog/ai-login/logout/?$ blog/ai-login/logout.php [L,QSA]
+
+  # Blog root
+  RewriteRule ^blog/?$ blog/index.php [L,QSA]
+
+  # Blog single articles: /blog/article-slug/ -> blog/index.php?slug=article-slug
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^blog/([a-zA-Z0-9_-]+)/?$ blog/index.php?slug=$1 [L,QSA]
+</IfModule>
+
+# Block access to sensitive configuration files
+<FilesMatch "(config\.php|\.sql|\.sqlite|\.sqlite3|\.env|\.git)">
+  Order allow,deny
+  Deny from all
+</FilesMatch>

@@ -1,0 +1,6 @@
+# Block PHP/CGI script execution in uploads directory
+<FilesMatch "(?i)\.(php|phtml|php3|php4|php5|php7|php8|pht|phar|sh|pl|cgi|exe|py)$">
+  Order Allow,Deny
+  Deny from all
+</FilesMatch>
+Options -ExecCGI -Indexes
