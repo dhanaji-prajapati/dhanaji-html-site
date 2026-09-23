@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" fill="none">
+  <g transform="translate(14, 12)">
+    <!-- Scissor icon forming M and Hand forming D -->
+    <circle cx="16" cy="42" r="5" stroke="#FB923C" stroke-width="2.5" fill="none"/>
+    <circle cx="34" cy="42" r="5" stroke="#FB923C" stroke-width="2.5" fill="none"/>
+    <line x1="19" y1="38" x2="34" y2="16" stroke="#FB923C" stroke-width="3" stroke-linecap="round"/>
+    <line x1="31" y1="38" x2="16" y2="16" stroke="#FB923C" stroke-width="3" stroke-linecap="round"/>
+    <path d="M38 18 C46 18, 50 24, 50 32 C50 40, 46 46, 38 46 L38 18 Z" fill="#FDBA74"/>
+  </g>
+  <text x="76" y="36" font-family="Georgia, serif" font-weight="bold" font-size="14" fill="#431407" letter-spacing="1">THE STYLIST</text>
+  <text x="77" y="52" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="14" fill="#F97316" letter-spacing="3">MD</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 80" fill="none">
+  <g transform="translate(14, 18)">
+    <text x="0" y="34" font-family="Georgia, serif" font-weight="900" font-size="17" fill="#43A047" letter-spacing="2">THE</text>
+    <text x="44" y="34" font-family="Georgia, serif" font-weight="900" font-size="34" fill="#2E7D32" letter-spacing="2">ROOT</text>
+    <!-- Root descending flourish from R -->
+    <path d="M49 34 Q52 46 44 52" stroke="#2E7D32" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

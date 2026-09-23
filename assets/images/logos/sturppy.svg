@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" fill="none">
+  <g transform="translate(12, 12)">
+    <text x="0" y="34" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="34" fill="#09090B" letter-spacing="-1">Sturppy</text>
+    <!-- Yellow capsule pill badge -->
+    <rect x="0" y="40" width="84" height="15" rx="7.5" fill="#FACC15"/>
+    <text x="14" y="51" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="8.5" fill="#FFFFFF" letter-spacing="2">PLANNING</text>
+  </g>
+</svg>

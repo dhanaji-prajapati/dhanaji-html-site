@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" fill="none">
+  <g transform="translate(10, 10)">
+    <!-- Gold Monogram Letters SR BR with lake pattern -->
+    <text x="0" y="34" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="34" fill="#EAB308" stroke="#78350F" stroke-width="1.5">SR</text>
+    <text x="44" y="34" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="34" fill="#EAB308" stroke="#78350F" stroke-width="1.5">BR</text>
+    <!-- Anchor graphic -->
+    <circle cx="38" cy="32" r="3" fill="#09090B"/>
+    <line x1="38" y1="34" x2="38" y2="48" stroke="#09090B" stroke-width="3"/>
+    <line x1="32" y1="38" x2="44" y2="38" stroke="#09090B" stroke-width="2.5"/>
+    <path d="M30 46 C34 52, 42 52, 46 46" stroke="#09090B" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+  <text x="96" y="36" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="13" fill="#2563EB" letter-spacing="0.5">SHINY ROCK</text>
+  <text x="96" y="52" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="11" fill="#1D4ED8" letter-spacing="1">BOAT RENTAL</text>
+</svg>

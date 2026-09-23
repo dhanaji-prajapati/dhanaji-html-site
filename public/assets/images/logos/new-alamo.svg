@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" fill="none">
+  <g transform="translate(10, 8)">
+    <!-- Teal Circle Backdrop -->
+    <circle cx="32" cy="32" r="26" fill="#99F6E4" opacity="0.7"/>
+    <!-- Cupped Hands -->
+    <path d="M12 40 C16 48, 26 54, 32 54 C38 54, 48 48, 52 40 C44 48, 38 48, 32 44 C26 48, 20 48, 12 40 Z" fill="#2D4B94"/>
+    <!-- House Shape -->
+    <path d="M32 15 L20 26 L24 26 L24 40 L40 40 L40 26 L44 26 Z" fill="#1E3A8A"/>
+    <rect x="29" y="29" width="6" height="11" fill="#FFFFFF"/>
+    <rect x="26" y="21" width="4" height="4" fill="#FFFFFF"/>
+    <rect x="34" y="21" width="4" height="4" fill="#FFFFFF"/>
+  </g>
+  <text x="78" y="38" font-family="cursive, 'Brush Script MT', Georgia, serif" font-weight="bold" font-style="italic" font-size="22" fill="#2E4C9D">New Alamo</text>
+  <text x="79" y="54" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="8.5" fill="#3B5998" letter-spacing="2">RESIDENCE HOME</text>
+</svg>

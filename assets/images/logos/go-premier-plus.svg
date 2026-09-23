@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 80" fill="none">
+  <g transform="translate(14, 8)">
+    <!-- Stylized P Icon -->
+    <path d="M22 6 L38 6 C48 6, 52 14, 52 24 C52 34, 46 40, 36 40 L22 40 Z" fill="#64748B" stroke="#1E293B" stroke-width="4"/>
+    <path d="M30 18 L36 18 C40 18, 42 20, 42 24 C42 28, 40 30, 36 30 L30 30 Z" fill="#0F172A"/>
+    <!-- Blue cross mark on P -->
+    <path d="M34 16 L34 32 M26 24 L42 24" stroke="#38BDF8" stroke-width="3" stroke-linecap="round"/>
+    <!-- Yellow Vortex / Tornado Spiral -->
+    <ellipse cx="26" cy="44" rx="14" ry="4.5" fill="#EAB308"/>
+    <ellipse cx="28" cy="50" rx="11" ry="3.8" fill="#FACC15"/>
+    <ellipse cx="30" cy="55" rx="8" ry="3.2" fill="#FDE047"/>
+    <ellipse cx="31" cy="60" rx="5" ry="2.5" fill="#EAB308"/>
+    <circle cx="32" cy="64" r="2" fill="#CA8A04"/>
+  </g>
+  <text x="80" y="38" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="16" fill="#1E293B" letter-spacing="-0.2">PREMIER</text>
+  <text x="80" y="56" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="14" fill="#0284C7" letter-spacing="1">PLUS</text>
+</svg>

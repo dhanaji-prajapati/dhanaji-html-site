@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 80" fill="none">
+  <g transform="translate(8, 6)">
+    <!-- Yellow floral wreath / sunburst -->
+    <circle cx="34" cy="34" r="28" fill="none"/>
+    <path d="M34 8 C36 12, 36 14, 34 16 C32 14, 32 12, 34 8" fill="#F59E0B"/>
+    <path d="M34 60 C36 56, 36 54, 34 52 C32 54, 32 56, 34 60" fill="#F59E0B"/>
+    <path d="M8 34 C12 36, 14 36, 16 34 C14 32, 12 32, 8 34" fill="#F59E0B"/>
+    <path d="M60 34 C56 36, 54 36, 52 34 C54 32, 56 32, 60 34" fill="#F59E0B"/>
+    <circle cx="17" cy="17" r="2.5" fill="#F59E0B"/>
+    <circle cx="51" cy="17" r="2.5" fill="#F59E0B"/>
+    <circle cx="17" cy="51" r="2.5" fill="#F59E0B"/>
+    <circle cx="51" cy="51" r="2.5" fill="#F59E0B"/>
+    <!-- Crossed Spoon and Fork in Forest Green -->
+    <g stroke="#15803D" stroke-width="4.5" stroke-linecap="round">
+      <line x1="18" y1="50" x2="48" y2="20"/>
+      <line x1="50" y1="50" x2="20" y2="20"/>
+    </g>
+    <!-- Spoon Head -->
+    <ellipse cx="20" cy="20" rx="6" ry="8" transform="rotate(-45 20 20)" fill="#15803D"/>
+    <!-- Fork Prongs -->
+    <path d="M44 16 L48 20 L52 16 M48 20 L52 24" stroke="#15803D" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <text x="78" y="38" font-family="Georgia, serif" font-weight="900" font-size="18" fill="#166534" letter-spacing="1">CHINNIE'S</text>
+  <polygon points="172,25 174,30 179,30 175,33 177,38 172,35 168,38 169,33 166,30 171,30" fill="#F59E0B"/>
+  <text x="80" y="56" font-family="Georgia, serif" font-weight="700" font-size="13" fill="#15803D" letter-spacing="3.5">KITCHEN</text>
+</svg>
