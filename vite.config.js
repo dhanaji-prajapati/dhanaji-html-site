@@ -32,6 +32,7 @@ export default defineConfig({
         penaltyRecovery: resolve(__dirname, 'seo-services/penalty-algorithm-recovery/index.html'),
         coreWebVitals: resolve(__dirname, 'seo-services/core-web-vitals/index.html'),
         freeSiteReview: resolve(__dirname, 'seo-services/free-site-review/index.html'),
+        privacyPolicy: resolve(__dirname, 'privacy-policy/index.html'),
       },
     },
   },

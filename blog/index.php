@@ -444,6 +444,8 @@ if (!empty($slug)) {
         <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <p>&copy; <?= date('Y') ?> Dhanaji Prajapati. All rights reserved. Independent SEO Consultant.</p>
           <div class="flex items-center space-x-4">
+            <a href="/privacy-policy/" class="hover:text-white transition-colors">Privacy Policy</a>
+            <span>&middot;</span>
             <a href="/blog/" class="hover:text-white transition-colors">Technical SEO Blog</a>
             <span>&middot;</span>
             <a href="/contact/" class="hover:text-white transition-colors">Contact</a>
@@ -799,6 +801,8 @@ $totalPublishedCount = count($publishedPosts);
     <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
       <p>&copy; <?= date('Y') ?> Dhanaji Prajapati. All rights reserved. Independent SEO Consultant.</p>
       <div class="flex items-center space-x-4">
+        <a href="/privacy-policy/" class="hover:text-white transition-colors">Privacy Policy</a>
+        <span>&middot;</span>
         <a href="/white-label-seo/" class="hover:text-white transition-colors">White Label SEO</a>
         <span>&middot;</span>
         <a href="/pricing/" class="hover:text-white transition-colors">Pricing</a>
